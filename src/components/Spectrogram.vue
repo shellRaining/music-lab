@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from "vue";
+import { ref } from "vue";
 
 const props = defineProps<{
   canvasWidth: number; // 画布宽度
